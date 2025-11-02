@@ -13,6 +13,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-The .env file contains following URLs:-
+<h1>The .env file contains following URLs:-</h1>
 VITE_SUPABASE_URL=
 VITE_SUPABASE_ANON_KEY=
