@@ -1,0 +1,67 @@
+.homepgbody{
+    flex: 1;
+}
+
+
+.inputForm {
+  display: flex;
+  justify-content: space-between; /* inputs left, buttons right */
+  align-items: center;            /* vertical center */
+  flex-wrap: nowrap;              /* keep all in one line */
+  gap: 20px;                     /* space between inputs group and buttons */
+}
+
+
+
+.inputs-group {
+  display: flex;
+  gap: 20px; /* space between input items */
+  align-items: center;
+}
+
+
+.inputItem label {
+  margin-right: 5px; /* some spacing between label and input */
+}
+
+.form-section{
+   padding: 15px;
+   background-color:#F0F0EC ;
+}
+.form-buttons {
+  display: flex;
+  gap: 10px;          /* space between buttons */
+}
+
+.inputItem button-div{
+    display: flex;
+   flex-direction: flex-end;
+   gap: 10px;
+
+}
+
+.inputForm label,
+.inputForm input,
+.inputForm select
+{
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 4px;
+
+}
+
+
+@media (max-width: 720px) {
+  .inputForm {
+    flex-wrap: wrap;
+  }
+  .inputs-group {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .form-buttons {
+    margin-top: 10px;
+  }
+}
+
+

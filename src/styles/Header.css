@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2223;
+  color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  height: 60px;
+  position: relative;
+  padding: 50px;
+}
+
+.left-placeholder {
+  width: 80px; /* same width as right-items approx to balance */
+}
+
+.center-heading {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  pointer-events: none; /* so clicks pass through */
+}
+
+.right-items {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.right-items h3 {
+  margin: 0;
+  font-weight: 500;
+  user-select: none;
+}
+
+.right-items button {
+  background-color: #e63946;
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.right-items button:hover {
+  background-color: #d62828;
+}

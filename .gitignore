@@ -1,0 +1,42 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (keep secrets safe)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+log.txt
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage and test output
+coverage/
+.nyc_output/
+
+# Build artifacts
+dist/
+build/
+tmp/
+.cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.swp
+
+# Misc
+*.bak
+*.tmp
